@@ -9,7 +9,7 @@ html{
 .container{
     margin: 30px auto;
    width: 700px;
-   height: 900px;
+   height: 800px;
    background: radial-gradient(circle, rgba(159,134,192,1) 37%, rgba(94,84,142,1) 100%);
    display: flex;
    flex-direction: column;
