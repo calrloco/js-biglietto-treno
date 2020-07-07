@@ -1,7 +1,7 @@
 document.getElementById('form').addEventListener('submit', computeResoults);
 function computeResoults(e) {
-    const UIeta = document.getElementById("eta").value;
-    const UIkm = document.getElementById("prezzo").value;
+    const UIeta = parseInt(document.getElementById("eta").value);
+    const UIkm = parseInt(document.getElementById("prezzo").value);
     var km = UIkm;
     var eta = UIeta;
     var sconto;
