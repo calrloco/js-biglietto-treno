@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <div class="container">
+     
+        <h1 class="title">Calcola Il prezzo del tuo viaggio</h1>
+        <form id="form">
+            <input name="etaField" type="numbers" id="eta" placeholder="eta" required>
+            <input name="kmField" type="numbers" id="prezzo" placeholder="KM" required>
+            <div class="btn">
+                <button class="btn btn-bg" type="submit">Calcola il prezzo</button>
+                
+            </div>
+            <div class="totale">
+                <p id="totale">Prezzo per la corsa: 0.00</p>
+                <p id="sconto">sconto: 0.00</p>
+            </div>
+            
+        </form>
+        <input id="reload" type="button"  value="Ricalcola" onclick="RefreshPage()">
+        
+            
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
