@@ -51,7 +51,7 @@ input:focus{
     border: none;
     cursor: pointer;
     font-size: 15px;
-    color: #fff;
+    
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,11 @@ input:focus{
     
 }
 .btn-bg{
- background-color: #2d00f7;
+    color: #540d6e;
+    border: 3px solid #540d6e;
+    background-color: #faf0af;
+    transition: all .2s;
+  
 }
 .totale{
     background-color: #e0b1cb;
@@ -77,8 +81,17 @@ input:focus{
     width: 100px;
     cursor: pointer;
     font-weight: 700;
-    background-color: #2d00f7;
-    color: #fff;
+    background-color: #faf0af;
+    color: #540d6e;
+    border: 3px solid #540d6e;
     font-size: 15px;
     
+}
+.btn-bg:hover{
+    transform: scale(1.1);
+   
+}
+.btn-bg:active{
+    transform: scale(1);
+ 
 }
