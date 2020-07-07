@@ -52,6 +52,9 @@ input:focus{
     font-size: 15px;
     color: #fff;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .btn-bg{
@@ -70,7 +73,7 @@ input:focus{
     align-items: center;
 }
 #reload{
-    width: 20%;
+    width: 100px;
     cursor: pointer;
     font-weight: 700;
     background-color: #2d00f7;
